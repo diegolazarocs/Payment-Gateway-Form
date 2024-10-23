@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Gateway Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <form>
+        <div class="entrega">
+          <h2>dados de entrega</h2>
+          <label>nome completo:</label>
+          <input type="text" placeholder="Diego Lazaro" />
+          <label>email:</label>
+          <input type="email" placeholder="exemplo@exemplo.com.br" />
+          <label>endereço:</label>
+          <input type="text" placeholder="Rua A - 123" />
+          <label>cidade:</label>
+          <input type="text" placeholder="sao paulo" />
+          <div class="flex">
+            <div>
+              <label>estado:</label>
+              <input type="text" placeholder="SP" />
+            </div>
+            <div>
+              <label>CEP:</label>
+              <input type="number" placeholder="12345-000" />
+            </div>
+          </div>
+        </div>
+        <div class="pagamento">
+          <h2>dados de pagamento</h2>
+          <label>cartões aceitos:</label>
+          <img src="/cards.png" alt="" />
+          <label>nome cartão:</label>
+          <input type="text" placeholder="Diego Lazaro" />
+          <label>numero no cartão:</label>
+          <input type="number" placeholder="1222-12254-2225" />
+          <label>Exp. Mês:</label>
+          <input type="text" placeholder="Janeiro" />
+          <div class="flex">
+            <div>
+              <label>exp.</label>
+              <input type="number" placeholder="2024" />
+            </div>
+            <div>
+              <label>CVV:</label>
+              <input type="number" placeholder="123" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

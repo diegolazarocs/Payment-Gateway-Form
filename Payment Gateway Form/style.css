@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --white: var(#fff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: linear-gradient(90deg, #85b3e4 60%, #1d5380 40%);
+  margin: 1rem auto;
+  height: 100vh;
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: 10%;
+}
+h2 {
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #1d5380;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+input {
+  width: 100%;
+  background-color: #85b3e4;
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 0.5rem;
+}
+input::placeholder {
+  color: #fff;
+}
+label {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #1d5380;
+  font-weight: bold;
+  margin-top: .8rem;
+  display: block;
+}
+form {
+  background-color: #fff;
+  padding: 1rem;
+  width: 750px;
+  display: flex;
+  gap: 25px;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
